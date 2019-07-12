@@ -1,8 +1,8 @@
 body {
   margin: 0;
   color: $font-color;
-  font-family: $font-style;
-  font-size: 1.1em;
+  font-family: $heading-font;
+  font-size: 1em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -42,6 +42,7 @@ a:hover {
 header {
   // background: $header;
   background: url("../../assets/background.jpg");
+  opacity: 0.5;
   background-position: center;
   background-attachment: fixed;
   padding: 0px 15px;
@@ -76,15 +77,19 @@ aside {
   border-bottom: 1px solid lighten($light, 30%);
   box-shadow: 0px 1px 1px RGBA(4, 25, 54, 0.1);
   nav {
-    float: left;
+    // float: right;
     max-width: 800px;
     margin: 0 auto;
     ul {
       margin: 0;
       padding: 0;
       list-style: none;
-      li {
+      li.title {
         float: left;
+        position: relative;
+      }
+      li {
+        float: right;
         position: relative;
         a {
           text-decoration: none;
@@ -101,6 +106,9 @@ aside {
             color: $main;
           }
         }
+        .title {
+          float: left;
+        }
       }
     }
     &:after {
@@ -110,6 +118,17 @@ aside {
     }
   }
 }
+img {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+img:hover {
+  width: 90%;
+  transition: 1s;
+}
 footer {
   text-align: center;
   padding: 0px;
@@ -118,4 +137,9 @@ pre {
   overflow: auto;
   padding: 20px;
   background-color: lightgrey;
+}
+@media (max-width: 400px) {
+  aside nav ul li {
+      float: left;
+  }
 }

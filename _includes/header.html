@@ -2,7 +2,7 @@
 	<div class="container">
 		<nav>
 			<ul>
-				<li><a href="/">{{ site.title }}</a></li>
+				<li class="title"><a href="/">{{ site.title }}</a></li>
 				{% for page in site.pages %} {% if page.title %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}

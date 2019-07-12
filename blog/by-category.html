@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /blog/categories/
+---
+
+<h2>Blog</h2><a href="/blog">show recent post</a>
+<div>
+{% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <h3>{{ category_name }}</h3>
+    {% for post in site.categories[category_name] %}
+    <ul>
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+    </ul>
+    {% endfor %}
+{% endfor %}
+</div>
+
+<br><br>
+<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

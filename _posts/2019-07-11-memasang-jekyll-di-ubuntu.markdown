@@ -2,7 +2,7 @@
 layout: post
 title:  "Memasang Jekyll di Ubuntu 18.04 Bionic dan Turunannya"
 date:   2019-07-11 22:01:38 +0700
-categories: jekyll ubuntu
+categories: [jekyll,ubuntu]
 ---
 [**Jekyll**](https://jekyllrb.com) merupakan salah satu SSG (static site generator) yang populer. Jekyll dibuat dengan Ruby dan merupakan SSG yang diberi support lebih oleh GitHub untuk membuat GitHub Pages. Berikut langkah - langkah memasang Jekyll di Ubuntu 18.04 dan turunannya.
 Pertama update dulu untuk memastikan paket yang akan dipasang merupakan yang terbaru. Buka terminal dan masukkan kode dibawah :
