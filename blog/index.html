@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2>Blog</h2><a href="/blog/categories">show by categories</a>
+<h2>Blog</h2><a href="/blog/categories" style="float:right;">show by categories</a>
 <br><br>
 {% for post in site.posts %}
 <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> - <time>{{ post.date | date: "%b %-d, %Y "}}</time></h3>

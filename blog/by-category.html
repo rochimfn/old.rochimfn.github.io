@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/categories/
 ---
 
-<h2>Blog</h2><a href="/blog">show recent post</a>
+<h2>Blog</h2><a href="/blog" style="float:right;">show recent post</a>
 <div>
 {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}

@@ -32,7 +32,7 @@ p {
 a,
 a:visited {
   color: $link-color;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
 }
 a:hover {
@@ -95,7 +95,7 @@ aside {
           text-decoration: none;
           display: block;
           padding: 15px;
-          font-family: 'Muli', sans-serif;
+          font-family: $heading-font;
           line-height: 20px;
           margin-bottom: -1px;
           box-shadow: 0;
@@ -138,6 +138,14 @@ pre {
   padding: 20px;
   background-color: #19ccaa;
   border-radius: 5px;
+}
+i.fa {
+  font-size: 36px;
+}
+@media (max-width: 810px) {
+  body{
+    margin: 15px;
+  }
 }
 @media (max-width: 400px) {
   aside nav ul li {
