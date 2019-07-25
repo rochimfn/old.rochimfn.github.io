@@ -4,9 +4,9 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
->>>
-Feel free to contact me.
->>>
+
+### Feel free to contact me.
+
 |<i class="fa fa-envelope-o"></i>|[rochim.noviyan@gmail.com](mailto:rochim.noviyan@gmail.com)
 |<i class="fa fa-github"></i>|[rochimfn](https://github.com/rochimfn)
 |<i class="fa fa-linkedin"></i>|[Rochim Farul Noviyan](https://www.linkedin.com/in/rochim-farul-noviyan-421292164)
