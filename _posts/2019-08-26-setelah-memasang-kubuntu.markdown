@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hal yang dilakukan setelah memasang Ubuntu 18.04 Bionix beaver"
+title:  "Hal yang dilakukan setelah memasang Ubuntu 18.04 Bionic Beaver"
 date:   2019-08-26 19:09:03 +0700
 categories: ubuntu
 ---
@@ -26,7 +26,7 @@ Codec diperlukan dalam pemutaran berbagai file multimedia
 {% highlight shell %}
 sudo apt install ubuntu-restricted-extras
 {% endhighlight %}
-* #### Memasang aplikasi pilihan dari repository bawaaan
+* #### Memasang aplikasi pilihan dari repository bawaan
 {% highlight shell %}
 sudo apt mpv audacious vim vlc telegram-desktop
 {% endhighlight %}
