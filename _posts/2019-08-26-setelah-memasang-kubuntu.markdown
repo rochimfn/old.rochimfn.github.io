@@ -28,7 +28,7 @@ sudo apt install ubuntu-restricted-extras
 {% endhighlight %}
 * #### Memasang aplikasi pilihan dari repository bawaan
 {% highlight shell %}
-sudo apt mpv audacious vim vlc telegram-desktop
+sudo apt install mpv audacious vim vlc telegram-desktop
 {% endhighlight %}
 >**mpv :** Program pemutar video yang sederhana dan ringan
 
@@ -76,7 +76,7 @@ sudo tlp start
 {% endhighlight %}
 
 * #### Memasang program untuk developer
->**Git
+>**Git**
 {% highlight shell %}
 sudo apt install git
 {% endhighlight %}
