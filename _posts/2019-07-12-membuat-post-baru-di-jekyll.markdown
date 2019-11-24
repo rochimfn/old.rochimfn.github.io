@@ -23,7 +23,7 @@ Jekyll akan memulai server di [http://localhost:4000](http://localhost:4000). Bu
 
 [![screenshot 2](../../assets/new-post-2.png)](../../assets/new-post-2.png)
 
-### Membuat Post
+#### Membuat Post
 Untuk membuat post, buat file baru di folder `_posts` pada folder kerja web Jekyll. Sebelum menuliskan konten terlebih dahulu buat `front matter`, ini ialah bagian yang harus ada dalam setiap post di Jekyll. Isinya berupa keterangan -keterangan yang diawali oleh tiga symbol `-` juga diakhiri dengan tiga symbol tersebut. Jika bingung Jekyll telah membuat post awal di folder yang sama dengan format `.markdown` yang bisa disalin front matter-nya dan disesuaikan sesuai kebutuhan. Baru setelah ada front matter konten bisa ditulis. Post di Jekyll normalnya ditulis dengan format `markdown`, seluk beluk dan cara menulis markdown dapat dibaca di web [petanikode](https://www.petanikode.com/markdown-pemula/).
 
 

@@ -17,7 +17,7 @@ Sebelum menjalankan Eclipse pastikan [Openjdk](http://rochimfn.github.io/memasan
 Selain Eclipse masih ada lagi IDE java yang juga sangat populer yaitu `IntelliJ IDEA` dan `Apache NetBeans`. Kedua IDE ini juga bisa diinstall dengan mudah di Ubuntu Bionic dengan snap.
 
 
-### IntelliJ IDEA
+#### IntelliJ IDEA
 Gunakan perintah berikut untuk memasang IntelliJ IDEA
 
 {% highlight shell %}
@@ -30,7 +30,7 @@ snap install intellij-idea-educational --classic
 * **IntelliJ IDEA Community** ialah IntelliJ IDEA versi community, versi ini dapat digunakan tanpa perlu membayar.
 * **IntelliJ IDEA Educational** ialah IntelliJ IDEA versi pembelajaran.
 
-### NetBeans
+#### NetBeans
 {% highlight shell %}
 snap install netbeans --classic
 {% endhighlight %}

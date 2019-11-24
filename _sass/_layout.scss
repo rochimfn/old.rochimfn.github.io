@@ -2,7 +2,7 @@ body {
   margin: 0;
   color: $font-color;
   font-family: $font-style;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -152,7 +152,7 @@ footer {
 pre {
   overflow: auto;
   padding: 20px;
-  background-color: rgba(#19ccaa, 0.5);
+  background-color: $color4;
   border-radius: 5px;
 }
 i.fa {

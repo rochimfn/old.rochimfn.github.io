@@ -13,7 +13,7 @@ Hal - hal yang perlu dilakukan setelah memasang Ubuntu (minimal install)
 * #### Update system
 System perlu diperbarui terutama untuk mendapatkan patch keamanan terbaru
 {% highlight shell %}
-sudo apt update -y
+sudo apt update
 sudo apt upgrade -y
 {% endhighlight %}
 * #### Memasang bash completion
@@ -100,6 +100,6 @@ sudo apt install openjdk-11-jdk
 sudo snap install --classic
 {% endhighlight %}
 >**nodejs & npm**
-Tutorial: [https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/]()
+Tutorial: [https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/)
 
 ### Selesai

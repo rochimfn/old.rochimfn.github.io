@@ -9,7 +9,7 @@ Github Pages merupakan layanan hosting website statis dari Github, untuk menggun
 
 Agar Jekyll dapat di host di `gh-pages` (singkatan untuk GitHub pages) file - file Jekyll harus ditempatkan di repository dengan nama `username.github.io` namun apa bila telah menggunakan gh-pages sebelumnya dan repository `username.github.io` telah terisi oleh web statis lain Jekyll dapat ditempatkan di repository lain dengan syarat file - file Jekyll berada pada *branch* `gh-pages`.
 
-### Mengupload Jekyll ke `username.github.io`
+#### Mengupload Jekyll ke `username.github.io`
 
 Buat repository dengan nama `username.github.io` (ubah username dengan username akun github) di GitHub.
 Lalu buka file `_config.yml` yang terdapat pada folder kerja web Jekyll dengan teks editor. Cari baris
@@ -43,7 +43,7 @@ git push origin master
 
 Masukkan username dan password akun GitHub dan selesai, web Jekyll dapat diakses di https://username.github.io
 
-### Mengupload Jekyll ke repository bukan `username.github.io`
+#### Mengupload Jekyll ke repository bukan `username.github.io`
 
 Buat repository baru dengan nama apapun misal `blog`, nantinya web akan dapat diakses dengan url `http://username.github.io/blog`. Buka file `_config.yml` dengan teks editor dan ubah baris
 
