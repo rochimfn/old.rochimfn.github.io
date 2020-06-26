@@ -40,13 +40,11 @@ youtube-dl https://www.youtube.com/watch?v=pDPsgJFNDUc
 
 Menguduh video playlist dari youtube
 {% highlight shell%}
-youtube-dl -i PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6 -c
+youtube-dl -ic https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6
 {% endhighlight%}
 keterangan :
--i menunjukkan bahwa itu playlist diikuti dengan id dari playlist
-berikut contoh id dari suatu playlist
-https://www.youtube.com/playlist?list= *PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6*
--c menunjukkan continue, maksudnya agar pengunduhan bisa dilanjutkan bila terjadi kesalahan atau error
+**-i** menunjukkan bahwa yang akan diunduh ialah playlist. Jika tidak diberikan argumen -i tersebut youtube-dl hanya akan mengunduh video pertama dari playlist.
+**-c** menunjukkan continue, maksudnya agar pengunduhan bisa dilanjutkan bila terputus sebelum pengunduhan selesai.
 
 Mengunduh playlist dari youtube sebagai file mp3
 {% highlight shell%}

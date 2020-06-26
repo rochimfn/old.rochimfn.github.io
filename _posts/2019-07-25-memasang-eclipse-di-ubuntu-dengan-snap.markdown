@@ -26,9 +26,9 @@ snap install intellij-idea-community --classic
 snap install intellij-idea-educational --classic
 {% endhighlight %}
 
-* **IntelliJ IDEA Ultimate** ialah IntelliJ IDEA versi enterprise atau berbayar.
-* **IntelliJ IDEA Community** ialah IntelliJ IDEA versi community, versi ini dapat digunakan tanpa perlu membayar.
-* **IntelliJ IDEA Educational** ialah IntelliJ IDEA versi pembelajaran.
+* **IntelliJ IDEA Ultimate** ialah IntelliJ IDEA versi berbayar namun memiliki fitur yang paling lengkap.
+* **IntelliJ IDEA Community** ialah IntelliJ IDEA versi community yang dapat digunakan tanpa perlu membayar namun dengan fiturnya tidak selengkap versi Ultimate.
+* **IntelliJ IDEA Educational** ialah IntelliJ IDEA Community yang ditambahkan plugin khusus pembelajaran.
 
 #### NetBeans
 {% highlight shell %}

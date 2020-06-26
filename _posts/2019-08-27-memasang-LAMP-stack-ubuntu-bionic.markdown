@@ -72,6 +72,6 @@ FLUSH PRIVILEGES;
 /q
 {% endhighlight %}
 
-Buka [http://localhost/phpmyadmin]() untuk mengakses phpMyAdmin dengan username "admin" dan password "password".
+Buka [http://localhost/phpmyadmin](http://localhost/phpmyadmin) untuk mengakses phpMyAdmin dengan username "admin" dan password "password".
 
 Selesai, LAMP Stack telah terinstall beserta dengan phpMyAdmin. Directory root untuk LAMP Stack ini berada pada `/var/www/html`.

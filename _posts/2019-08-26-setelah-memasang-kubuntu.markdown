@@ -42,7 +42,7 @@ sudo apt install mpv audacious vim vlc telegram-desktop
 
 * #### Memasang xdman
 xdman merupakan program download manager yang gratis dan powerfull.
-Download file tar.gz di [http://xdman.sourceforge.net/]()
+Download file tar.gz di [http://xdman.sourceforge.net/](http://xdman.sourceforge.net/)
 {% highlight shell %}
 tar xvzf Downloads/xdm*.tar.xz
 cd xdm*
@@ -52,7 +52,7 @@ sudo ./install.sh
 
 * #### Memasang Google Chrome
 Google Chrome salah satu web browser terbaik yang ada
-Download file .deb di [https://www.google.com/chrome/index.html]()
+Download file .deb di [https://www.google.com/chrome/](https://www.google.com/chrome/)
 pasang dengan
 {% highlight shell %}
 sudo dpkg -i Downloads/google*deb
@@ -81,7 +81,7 @@ sudo tlp start
 sudo apt install git
 {% endhighlight %}
 >**Visual Studio Code**
-Download file .deb di [https://code.visualstudio.com/Download]()
+Download file .deb di [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 pasang dengan 
 {% highlight shell %}
 sudo dpkg -i Downloads/code*deb
@@ -99,7 +99,7 @@ sudo apt install openjdk-11-jdk
 {% highlight shell %}
 sudo snap install --classic
 {% endhighlight %}
->**nodejs & npm**
-Tutorial: [https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/)
+>**nodejs**
+dapat dibaca di: [https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/)
 
 ### Selesai

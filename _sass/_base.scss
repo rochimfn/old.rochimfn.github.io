@@ -1,19 +1,17 @@
-$color1: rgba(184, 216, 216, 1);
-$color2: rgba(122, 158, 159, 1);
-$color3: rgba(79, 99, 103, 1);
-$color4: rgba(238, 245, 219, 1);
-$color5: rgba(254, 95, 85, 1);
+$color1: rgba(122, 158, 159, 1);
+$color2: rgba(79, 99, 103, 1);
+$color3: rgba(238, 245, 219, 1);
 
 $content-width: 800px;
-$main: $color2;
+$main: $color1;
 $font-style: 'Source Sans Pro', sans-serif;;
 $font-color: #000000;
-$link-color: $color3;
+$link-color: $color2;
 $link-hover-color: $main;
 $heading-font: 'Muli', sans-serif;
-$heading-font-color: $color3;
+$heading-font-color: $color2;
 $light: #EEF5DB;
-$header: $color4;
+$header: $color3;
 
 *,
 *::before,
