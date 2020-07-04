@@ -69,7 +69,7 @@ sudo mysql -u root -p
 CREATE USER 'admin'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
-/q
+\q
 {% endhighlight %}
 
 Buka [http://localhost/phpmyadmin](http://localhost/phpmyadmin) untuk mengakses phpMyAdmin dengan username "admin" dan password "password".
