@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Protostar: stack2 "
-date:   2020-07-04 21:43:03 +0700
+date:   2020-07-05 10:33:03 +0700
 categories: [reversing, protostar]
 ---
 
